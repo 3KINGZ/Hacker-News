@@ -1,0 +1,71 @@
+.container {
+  font-family: sans-serif;
+}
+
+.nav {
+  background-color: rgb(255, 115, 0);
+  padding: 5px;
+}
+
+.heading {
+  font-weight: bolder;
+  margin-right: 12px;
+}
+
+.content {
+  background-color: rgb(243, 247, 239);
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.item {
+  margin-bottom: 5px;
+}
+.info {
+  color: gray;
+}
+.link {
+  color: grey;
+}
+.sn {
+  color: gray;
+  margin-right: 3px;
+}
+
+.logo {
+  border: 1px solid white;
+  text-align: center;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  height: 1px;
+  color: white;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.info-link {
+  color: gray;
+}
+
+a.info-link {
+  color: grey;
+}
+
+.icon {
+  color: grey;
+}
+
+.points {
+  margin-left: 20px;
+}
+
+.loader {
+  text-align: center;
+}
