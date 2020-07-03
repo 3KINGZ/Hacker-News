@@ -19,20 +19,23 @@ function Item({
         <span>
           <Icon icon="caret-up" iconsize={22} className="icon" />
         </span>
-        <span className="main-title">
-          <a href={url}>{title}</a>
-        </span>
-      </div>
-      <div className="info">
-        <span className="points">
-          {points} points by {author} {moment(time).fromNow()} | {comments}{" "}
-          comments |{" "}
-          <span>
-            <a className="info-link" href={tweetlink}>
-              tweet
-            </a>
-          </span>{" "}
-        </span>
+        <div className="main-content">
+          <span className="main-title">
+            <a href={url}>{title}</a>
+          </span>
+          <br />
+          {/* <div className="info"> */}
+          <span className="poiints">
+            {points} points by {author} {moment(time).fromNow()} | {comments}{" "}
+            comments |{" "}
+            <span>
+              <a className="info-link" href={tweetlink}>
+                tweet
+              </a>
+            </span>{" "}
+          </span>
+          {/* </div> */}
+        </div>
       </div>
     </div>
   );

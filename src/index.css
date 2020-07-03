@@ -60,6 +60,7 @@ a.info-link {
 
 .icon {
   color: grey;
+  margin-left: 5px;
 }
 
 .points {
@@ -68,4 +69,19 @@ a.info-link {
 
 .loader {
   text-align: center;
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.main-title {
+  font-size: 0.9em;
 }
