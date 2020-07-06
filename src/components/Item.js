@@ -21,7 +21,9 @@ function Item({
         </span>
         <div className="main-content">
           <span className="main-title">
-            <a href={url}>{title}</a>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {title}
+            </a>
           </span>
           <br />
           {/* <div className="info"> */}
